@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+		<!-- header seaction start -->
+
+	<header class="nav">
+		
+		<nav>
+			<h1>Fiverr</h1>
+			<ul>
+				<li> <a href="">Fiverr Business</a> </li>
+				<li> <a href="">explore</a> </li>
+				<li> <a href="">english</a> </li>
+				<li> <a href="">usd</a> </li>
+				<li> <a href="">become a seller</a> </li>
+				<li> <a href="">sign in</a> </li>
+				<li class="button"> <a href="">join</a></li>
+			</ul>
+		</nav>
+	</header>
+	<header class="banner">
+		<div class="banner-continer">
+			<div class="banner-content">
+			<h2>Find the perfect freelance <br> services for your business</h2>
+			<input type="text" class="search" placeholder="Try bulding mobile apps"><label for="">search</label>
+			<div class="banner-link">
+			<p>Popular :</p> 
+			<ul>
+				<li>webdiginig</li>
+				<li>wordpase</li>
+				<li>logo disign</li>
+				<li>nft aft</li>
+			</ul>
+		</div>
+		</div>
+		</div>
+	</header>
+
+<!-- header seaction end -->
+
+<!-- socal mdia seaction start  -->
+
+<section class="socal-mdia">
+	<div class="socal-continer">
+		<span>Trusted by:</span><span>Facebook</span><span>Google</span> <span>Netflix</span> <span>Paypal</span> <span>P&G</span>
+	</div>
+</section>
+
+
+<!-- socal mdia seaction end -->
+
+<!-- services section start -->
+		<section class="professional-serices">
+			<h1>Popular professional services</h1>
+			<div class="services-card-continer">
+				<div class="card">
+				<div class="services-card">
+					<p>build your brand</p>
+					<h2>logo design</h2>
+				</div>
+			</div>
+			<div>
+				<div class="services-card2">
+					<p>customize your site</p>
+					<h2>wordpress</h2>
+				</div>
+			</div>
+			<div>
+				<div class="services-card3">
+					<p>Share your masses</p>
+					<h2>Voice Over</h2>
+				</div>
+			</div>	
+			<div>
+				<div class="services-card4">
+					<p>Enage your adience</p>
+					<h2>Video Explainer</h2>
+				</div>
+			</div>	
+			<div>
+				<div class="services-card5">
+					<p>reach more customers</p>
+					<h2>Social Media</h2>
+				</div>
+			</div>
+			<div>
+				<div class="services-card6">
+					<p>Unloce growth online</p>
+					<h2>SEO</h2>
+				</div>
+			</div>
+			<div>
+				<div class="services-card7">
+					<p>Color youe dreams</p>
+					<h2>illustration</h2>
+				</div>
+			</div>
+			<div>
+				<div class="services-card8">
+					<p>go gobal</p>
+					<h2>Trasition</h2>
+				</div>
+			</div>
+			<div>
+				<div class="services-card9">
+					<p>learen your business</p>
+					<h2>Data Entry</h2>
+				</div>
+			</div>
+			<div>
+				<div class="services-card10">
+					<p>Showcase your story</p>
+					<h2>Book cover</h2>
+				</div>
+			</div>		
+		</div>
+		
+		</section>
+
+		<!-- services section end -->
+
+		<!-- telent section start -->
+
+		<section class="telent">
+			<div class="telent-continer">
+				<div class="telent-content">
+					<h2>A whole world of freelance <br> talent at your fingertips</h2>
+					<h3>The best for every budget</h3>
+					<p>Find high-quality services at every price point. No <br> hourly rates, just project-based pricing.</p>
+					<h3>Quality work done quickly</h3>
+					<p>Find the right freelancer to begin working on your <br> project within minutes.</p>
+					<h3>Protected payments, every time</h3>
+					<p>Always know what you'll pay upfront. Your <br> payment isn't released until you approve the work.</p>
+					<h3>24/7 support</h3>
+					<p>Questions? Our round-the-clock support team is <br> available to help anytime, anywhere.</p>
+				</div>
+				<div class="telent-tmg">
+					<img src="img\selling-proposition-still-1400-x1.webp" alt="">
+				</div>
+			</div>
+		</section>
+		<!-- telent section end -->
+		
+		<!-- marketplace section start -->
+		<section class="marketplace">
+			<h2>Explore the marketplace</h2>
+			
+				<div class="place-continer">
+					<div class="place-img"><img src="img\graphics-design.d32a2f8.svg"  alt="">
+						<p>Graphics design</p></div>
+					
+					<div class="place-img"> <img src="img\online-marketing.74e221b.svg"  alt="">
+						<p>Marketing</p></div>
+					<div class="place-img"><img src="img\video-animation.f0d9d71.svg" " alt="">
+						<p>Video & Animation</p></div>
+					<div class="place-img"><img src="img\music-audio.320af20.svg"  alt="">
+						<p>Music</p></div>
+					<div class="place-img"><img src="img\programming.9362366.svg"  alt="">
+						<p>programing</p></div>
+					<div class="place-img"><img src="img\data.718910f.svg" alt="">
+						<p>Data</p></div>
+						<div class="place-img"><img src="img\music-audio.320af20.svg"  alt="">
+							<p>Music</p></div>
+							<div class="place-img"><img src="img\online-marketing.74e221b.svg"  alt="">
+						<p>Marketing</p></div>
+				
+			</div>
+		</section>
+		<!-- marketplace section end -->
+
+		<!-- section business start -->
+
+		<section class="business">
+			<div class="business-continer">
+				<h4>fiverr business</h4> <span class="new">new</span>
+				
+				<h2>A business solution <br> designed for teams</h2>
+				<h5>Upgrade to a curated experience packed with tools  and benefits, dedicated to businesses</h5>
+				<p>Connect to freelancers with proven business experience</p>
+				<p>Get matched with the perfect talent by a customer success manager</p>
+				<p>Manage teamwork and boost productivity with one powerful workspace</p>
+				<br> <br>
+				<span class="explore"> explore fiverr business</span>
+				
+			</div>
+			<div class="business-img">
+				<img src="img\business-desktop-870-x1.webp" alt="">
+			</div>
+		</section>
+		<!-- section business end -->
+
+		<!-- section video start -->
+		<section class="video">
+			<div class="video-continer">
+				<img src="img\testimonial-video-still-lavender.webp" alt="">
+			</div>
+			<div class="video-dec">
+				<p>A business solution designed for teams</p>
+				<h6>Upgrade to a curated experience packed with tools and benefits, dedicated to businesses
+
+					Connect to freelancers with proven business experience
+					Get matched with the perfect talent by a customer success manager
+					Manage teamwork and boost productivity with one powerful workspace</h6>
+			</div>
+			<div class="video-dec">
+				<p>A business solution designed for teams</p>
+				<h6>Upgrade to a curated experience packed with tools and benefits, dedicated to businesses
+
+					Connect to freelancers with proven business experience
+					Get matched with the perfect talent by a customer success manager
+					Manage teamwork and boost productivity with one powerful workspace</h6>
+			</div>
+			<div class="video-continer">
+				<img src="img\testimonial-video-still-rooted.webp "alt="">
+			</div>
+			<div class="video-continer">
+				<img src="img\testimonial-video-still-haerfest.webp" alt="">
+			</div>
+			<div class="video-dec">
+				<p>A business solution designed for teams</p>
+				<h6>Upgrade to a curated experience packed with tools and benefits, dedicated to businesses
+
+					Connect to freelancers with proven business experience
+					Get matched with the perfect talent by a customer success manager
+					Manage teamwork and boost productivity with one powerful workspace</h6>
+			</div>
+		</section>
+		<!-- section video end -->
+		<section class="logo-maker">
+			<div class="make-continer">
+				<h6>fiverr logo maker</h6>
+				<h4>make an incredibe logo in minites</h4>
+				<p>free designed by top telent just add you touch
+				</p>
+				<br> <br>
+				<span>try fiverr logo maker</span>
+
+			</div>
+			<div class="make-logo">
+				<img src="img\logo-maker-banner-wide-desktop-1352-2x.webp" alt="">
+			</div>
+		</section>
+		
+		<section class="project">
+			<h1>Get inspired with projects made by our freelancers</h1>
+			<div class="project-continer">
+				<div class="project-content">
+					<div class="project-img">
+						<img src="img\bruno_malagrino.webp" alt="">
+					</div>
+					<div class="project-logo">
+						<img src="img\qqqqq.jpg" alt="">
+						<h2>graphics-design</h2>
+						<p>by saiful islam</p>
+					</div>
+				</div>
+				<div class="project-content">
+					<div class="project-img">
+						<img src="img\mijalzagier.webp" alt="">
+					</div>
+					<div class="project-logo">
+						<img src="img\hfdhfd.jpg" alt="">
+						<h2>graphics-design</h2>
+						<p>by saiful islam</p>
+					</div>
+				</div>
+				<div class="project-content">
+					<div class="project-img">
+						<img src="img\annapietrangeli.webp" alt="">
+					</div>
+					<div class="project-logo">
+						<img src="img\pretty-girl-take-lipstick-pretty-girl-take-lipstick-white-dress-isolated-pink-blue-background-123974340.jpg" alt="">
+						<h2>graphics-design</h2>
+						<p>by saiful islam</p>
+					</div>
+				</div>
+				<div class="project-content">
+					<div class="project-img">
+						<img src="img\spickex.webp " alt="">
+					</div>
+					<div class="project-logo">
+						<img src="img\images.jpg" alt="">
+						<h2>graphics-design</h2>
+						<p>by saiful islam</p>
+					</div>
+				</div>
+				
+				</div>
+		</section>
+
+		<section class="fiverr">
+			<h1>Fiverr guides</h1>
+			<div class="fiverr-continer">
+
+				<div class="fiverr-content">
+					<div class="fiverr-img">
+						<img src="img\guide-start-online-business-552-x2.webp" alt="">
+						<h3>start an business online and work frome home </h3>
+						<p>a complete guide to stating a simple business online..</p>
+					</div>
+					
+					</div>
+					<div class="fiverr-content">
+						<div class="fiverr-img">
+							<img src="img\guide-digital-marketing-552-x2.webp" alt="">
+							<h3>start an business online and work frome home </h3>
+							<p>a complete guide to stating a simple business online..</p>
+						</div>
+						
+						</div>
+						<div class="fiverr-content">
+							<div class="fiverr-img">
+								<img src="img\guide-create-a-logo-552-x2.webp" alt="">
+								<h3>start an business online and work frome home </h3>
+								<p>a complete guide to stating a simple business online..</p>
+							</div>
+							
+							</div>
+				</div>
+			</section>
+
+			<section class="business-grw">
+				<h1>
+					Find the talent needed to <br> get your business growing.</h1>
+					<br><br><br>
+					<span>Get Started</span>
+				
+			</section>
+
+	<footer>
+		<div class="footer-continer">
+			<h2>Categories</h2>
+			<p>Graphics & Design
+			<p>Digital Marketing</p>
+			<p>Writing & Translation</p>
+			<p>Video & Animation</p>
+			<p>Music & Audio</p>
+			<p>Programming & Tech</p>
+			<p>Data</p>
+			<p>Business</p>
+			<p>Lifestyle</p>
+			<p>Sitemap</p>
+			
+		</div>
+		<div class="footer-continer">
+			<h2>About</h2>
+			<p>Press & News</p>
+			<p> Careers</p>
+			<p> Partnerships</p>
+			<p> Privacy Policy</p>
+			<p>   Terms of Service</p>
+			<p>Intellectual Property Claims</p>
+			<p> Investor Relations </p>
+			
+		</div>
+		<div class="footer-continer">
+			<h2>Support</h2>
+			<p>Help & Support</p>
+			<p>  Trust & Safety</p>
+			<p>    Selling on Fiverr</p>
+			<p>  Buying on Fiverr</p>
+			
+			
+		</div>
+		<div class="footer-continer">
+			<h2>Community</h2>
+			<p> Events</p>
+			<p>Blog</p>
+			<p> Forum</p>
+			<p>Podcast</p>
+			<p> Affiliates</p>
+			<p>Invite a Friend</p>
+			<p>Become a Selle</p>
+			
+		</div>
+		<div class="footer-continer">
+			<h2>More From Fiverr</h2>
+			<p>   Fiverr Business</p>
+			<p>  Fiverr Pro</p>
+			<p> Fiverr Studios</p>
+			<p>Fiverr Logo Maker</p>
+			<p>   Fiverr Guides</p>
+			<p>Get Inspired</p>
+			<p> ClearVoice</p>
+			<p> Content Marketing</p>
+			<p> Fiverr Workspace</p>
+			<p>Invoice Software</p>		
+			<p>Learn</p>
+			<p>  Online Courses</p>		
+			<p> Working Not Working</p>
+		</div>
+		
+	</footer>
+	
+
+</body>
+</html>
+
+
+   
+    
+   
+    
+    
+   
+    
+    
+
+    
+  
+
+  
+
+
+
+
+
+   
+    
+   
+   
+ 
+    
+   

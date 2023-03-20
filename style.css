@@ -1,0 +1,800 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+    /* header seaction start  */
+
+.nav{
+    background-color: rgb(16, 78, 3);
+    height: 100px;
+    width: 100%;
+    
+    
+}
+
+ .nav nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+
+}
+nav h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 900;
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+    cursor: pointer;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 2s;
+}
+nav ul .button a{
+    color:rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 15px;
+}
+
+
+nav ul li::after{
+	content:'';
+	background: tomato;
+	height: 3px;
+	width: 0px;
+	position: absolute;
+	left: 0%;
+	bottom: -10px;
+	transition: .5s;
+}
+nav ul li:hover::after{
+	width: 100%;
+}
+
+
+
+    
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(16, 78, 3);
+    position: relative;
+    padding: 20px;
+    animation: saiful 1 1s 10s linear;
+}
+@keyframes saiful{
+    0% {background-color: rgb(1, 2, 1);
+    }
+    100%{
+        background-color: brown;
+    }
+}
+.banner-continer{
+    position:absolute;
+    top: 150px;
+    left: 30px;
+  
+
+}
+.banner-content h2{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    cursor: pointer;
+   
+}
+.banner-content .search{
+    width: 600px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+   
+}
+.banner-content label{
+    border: 2px solid rgb(6, 143, 13);
+    padding: 12px 25px;
+    background-color: rgb(6, 143, 13);
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 20px;
+    
+   
+}
+.banner-link{
+    margin: 20px;
+}
+.banner-link p{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.banner-link ul{
+    display: inline-block;
+}
+.banner-link ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    padding:2px 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.banner-link ul li:hover{
+    background-color: rgb(179, 171, 187);
+}
+	 /* header seaction end */
+
+      /* socal mdia seaction start   */
+
+.socal-mdia{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(235, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socal-continer span{
+    margin: 30px;
+    font-size: 30px;
+    color: rgb(170, 164, 164);
+    font-weight: 900;
+    text-transform: capitalize;
+
+    
+}
+
+.professional-serices{
+    margin-top: 150px;
+    padding: 40px;
+}
+.professional-serices h1{
+    font-size: 40px;
+    font-weight: 900;
+    cursor: pointer;
+}
+    /* socal mdia seaction end */
+
+    /* services section start */
+
+.services-card-continer{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap:30px
+}
+
+
+.services-card{
+    background-image: url("logo-design-2x.webp");
+    background-position: center;
+    background-size: cover;
+    width: 225px;
+    height: 342px;
+    padding: 15px;
+}
+.services-card2{
+    background-image: url("wordpress-2x.webp");
+    background-position: center;
+    background-size: cover;
+    width: 225px;
+    height: 342px;
+    padding: 15px;
+}
+.services-card3{
+    background-image: url("voiceover-2x.webp");
+    background-position: center;
+    background-size: cover;
+    width: 225px;
+    height: 342px;
+    padding: 15px;
+}
+.services-card4{
+    background-image: url("animated-explainer-2x.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 225px;
+    height: 342px;
+    padding: 15px;
+}
+.services-card5{
+    background-image: url("social-2x.webp");
+    background-position: center;
+    background-size: cover;
+    width: 225px;
+    height: 342px;
+    padding: 15px;
+}
+.services-card6{
+    background-image: url("seo-2x.webp");
+    background-position: center;
+    background-size: cover;
+    width: 225px;
+    height: 342px;
+    padding: 15px;
+}
+.services-card7{
+    background-image: url("illustration-2x.webp");
+    background-position: center;
+    background-size: cover;
+    width: 225px;
+    height: 342px;
+    padding: 15px;
+}
+.services-card8{
+    background-image: url("translation-2x.webp");
+    background-position: center;
+    background-size: cover;
+    width: 225px;
+    height: 342px;
+    padding: 15px;
+}
+.services-card9{
+    background-image: url("data-entry-2x.webp");
+    background-position: center;
+    background-size: cover;
+    width: 225px;
+    height: 342px;
+    padding: 15px;
+}
+.services-card10{
+    background-image: url("book-covers-2x.webp");
+    background-position: center;
+    background-size: cover;
+    width: 225px;
+    height: 342px;
+    padding: 15px;
+}
+
+
+.services-card p{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    /* margin: 20px; */
+}
+.services-card h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.services-card2 p{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    /* margin: 20px; */
+}
+.services-card2 h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.services-card3 p{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    /* margin: 20px; */
+}
+.services-card3 h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.services-card4 p{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    /* margin: 20px; */
+}
+.services-card4 h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.services-card5 p{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    /* margin: 20px; */
+}
+.services-card5 h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.services-card6 p{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    /* margin: 20px; */
+}
+.services-card6 h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.services-card7 p{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    /* margin: 20px; */
+}
+.services-card7 h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.services-card8 p{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    /* margin: 20px; */
+}
+.services-card8 h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.services-card9 p{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    /* margin: 20px; */
+}
+.services-card9 h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.services-card10 p{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    /* margin: 20px; */
+}
+.services-card10 h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+ .services-card:hover{
+    opacity: .5;
+}
+.services-card2:hover{
+    opacity: .5;
+}
+.services-card3:hover{
+    opacity: .5;
+}
+.services-card4:hover{
+    opacity: .5;
+}
+.services-card5:hover{
+    opacity: .5;
+}
+.services-card6:hover{
+    opacity: .5;
+}
+.services-card7:hover{
+    opacity: .5;
+}
+.services-card8:hover{
+    opacity: .5;
+}
+.services-card9:hover{
+    opacity: .5;
+}
+.services-card10:hover{
+    opacity: .5;
+}
+
+/* services section end */
+
+/* telent sectioin start */
+
+.telent{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(237, 244, 245);
+    padding: 100px 40px;
+    
+}
+
+.telent-continer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+    
+
+.telent-content h2{
+    font-size: 40px;
+    font-weight: 900;
+    margin: 20px 0;
+
+}
+.telent-content h3{
+    font-size: 25px;
+    font-weight: 900;
+    margin: 10px 0;
+
+}
+.telent-content p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+
+}
+/* telent section end */
+
+/* marketpalce section start */
+
+.marketplace{
+    margin-top:150px;
+    padding: 0 50px;
+}
+.marketplace h2{
+    font-size: 40px;
+    font-weight: 900;
+    
+    
+}
+
+
+.place-continer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);   
+    text-align: center;
+    margin: 20px;
+}
+.place-continer  img{
+    width: 80px;
+    height: 80px;
+    margin-top: 70px;
+}
+.place-continer .place-img p{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+/* marketplacw section end */
+
+/* section business start  */
+
+.business{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(13, 12, 88);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+}
+.business-continer{
+    margin: 50px;
+}
+.business-continer h4{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 20px 0;
+}
+.business-continer .new{
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 30, 255);
+    padding: 3px 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.business-continer h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin:20px 0 ;
+}
+.business-continer h5{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin:30px 0;
+}
+.business-continer p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin:25px 0;
+}
+.business-continer .explore{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 187, 30);
+    padding: 3px 15px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-top: 100px;
+    
+   
+}
+.business-continer .explore:hover{
+    background-color:rgb(9, 114, 14);
+}
+.business-img img{
+    width: 600px;
+    height: 400px;
+    margin: 50px;
+}
+/* section business end */
+/* section video start */
+.video{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 20px;
+}
+.video-continer img{
+    width: 500px;
+    height: 300px;
+    margin: 30px;
+}
+.video-dec p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+    margin: 30px;
+}
+.video-dec h6{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    text-align: justify;
+    font-weight: 900;
+    margin: 20px;
+}
+/* section video end */ 
+
+.logo-maker{
+width: 1275px;
+height: 350px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+background-color: rgb(30, 135, 226);
+margin: 30px;
+padding: 20px;
+}
+.make-continer h6{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 10px 40px;
+
+}
+.make-continer h4{
+    font-size:  30px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 20px 40px;
+
+}
+.make-continer p{
+    font-size:  20px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 20px 40px;
+
+}
+.make-continer span{
+    font-size:  20px;
+    color: rgb(30, 135, 226);
+    
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 20px 40px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+.make-continer span:hover{
+    background-color: rgb(168, 168, 168);
+}
+.make-logo img{
+    width: 800px;
+    height: 320px;
+}
+.project{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(235, 226, 226);
+    margin-top: 150px;
+    padding: 40px;
+  
+}
+
+.project h1{
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: rgb(10, 0, 0);
+}
+.project-continer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+    
+}
+.project-content{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 8px 5px 10px black;
+}
+
+.project-img img{
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+}
+.project-logo{
+    margin: 10px 20px;
+}
+.project-logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.project-logo h2{
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.project-logo p{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.project-content:hover{
+    box-shadow: 14px 10px 15px rgb(0, 0, 0);
+
+}
+
+
+
+
+.fiverr{
+    margin-top: 50px;
+    padding: 40px;
+  
+}
+
+.fiverr h1{
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: rgb(10, 0, 0);
+}
+.fiverr-continer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;  
+}
+.fiverr-content{
+    width: 400px;
+    margin-top: 30px;
+
+ 
+}
+
+.fiverr-img img{
+    width: 400px;
+ 
+}
+
+
+.fiverr-img h3{
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.fiverr-img p{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.fiverr-content:hover{
+    box-shadow: 14px 10px 15px rgb(0, 0, 0);
+
+}
+
+.business-grw{
+    background-image: url(bg-signup-1400-x1.webp);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 1250px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 100px 80px;
+}
+.business-grw h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin: ;
+
+}
+.business-grw span{
+   
+    padding: 10px 25px;
+    background-color: rgb(8, 167, 8);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+.business-grw span:hover{
+    background-color: rgb(28, 221, 10);
+}
+footer{
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+    border-top: 1px solid rgb(180, 180, 180);
+    border-bottom: 1px solid rgb(180, 180, 180);
+    width: 100%;
+    min-height: 500px;
+    padding: 50px;
+    cursor: pointer;
+}
+.footer-continer p{
+    margin-top:30px ;
+    font-size: 19px;
+    
+
+}
